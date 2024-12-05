@@ -1,0 +1,23 @@
+{
+    "einstein_radius": 0.3364956529559883,
+    "F150W_lens_magnitude_ab": 22.294652840454937,
+    "F150W_lensed_source_magnitude_ab": 24.037794046608802,
+    "F150W_source_magnitude_ab": 24.244580444191218,
+    "F150W_magnification": 3.190803628276175,
+    "F150W_max_lensed_source_signal_to_noise_ratio": 7.275887063749149,
+    "F277W_lens_magnitude_ab": 20.10587850892117,
+    "F277W_lensed_source_magnitude_ab": 23.491002982211192,
+    "F277W_source_magnitude_ab": 23.807677212124,
+    "F277W_magnification": 3.0607891100607314,
+    "F277W_max_lensed_source_signal_to_noise_ratio": 10.307701967701012,
+    "F444W_lens_magnitude_ab": 19.754213585265475,
+    "F444W_lensed_source_magnitude_ab": 23.365864282674856,
+    "F444W_source_magnitude_ab": 23.71108475010818,
+    "F444W_magnification": 3.263601301973325,
+    "F444W_max_lensed_source_signal_to_noise_ratio": 10.905739464783172,
+    "F115W_lens_magnitude_ab": 22.80258906345275,
+    "F115W_lensed_source_magnitude_ab": 24.213484369834227,
+    "F115W_source_magnitude_ab": 24.324789967713876,
+    "F115W_magnification": 2.8774833660763774,
+    "F115W_max_lensed_source_signal_to_noise_ratio": 5.515116447579297
+}
