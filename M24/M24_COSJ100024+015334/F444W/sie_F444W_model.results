@@ -1,0 +1,193 @@
+Bayesian Evidence                                                               5883.45260569
+Maximum Log Likelihood                                                          5926.34350794
+Maximum Log Posterior                                                           1005550.53047017
+
+model                                                                           Collection (N=10)
+    galaxies                                                                    Collection (N=10)
+        lens                                                                    Galaxy (N=7)
+            bulge - point                                                       Basis (N=0)
+                profile_list                                                    ModelInstance (N=0)
+                    0 - 9                                                       Gaussian (N=0)
+            mass                                                                Isothermal (N=5)
+            shear                                                               ExternalShear (N=2)
+            bulge - disk
+                profile_list
+                    10 - 29                                                     Gaussian (N=0)
+        source                                                                  Galaxy (N=3)
+            pixelization                                                        Pixelization (N=3)
+                regularization                                                  AdaptiveBrightnessSplit (N=3)
+                image_mesh                                                      Overlay (N=0)
+    dataset_model                                                               DatasetModel (N=0)
+
+Maximum Log Likelihood Model:
+
+galaxies
+    source
+        pixelization
+            regularization
+                inner_coefficient                                               0.000
+                outer_coefficient                                               257.769
+                signal_scale                                                    0.008
+    lens
+        mass
+            ell_comps
+                ell_comps_0                                                     -0.034
+                ell_comps_1                                                     -0.039
+            einstein_radius                                                     0.778
+            centre
+                centre_0                                                        0.041
+                centre_1                                                        0.053
+        shear
+            gamma_1                                                             0.013
+            gamma_2                                                             -0.020
+
+
+Summary (3.0 sigma limits):
+
+galaxies
+    source
+        pixelization
+            regularization
+                inner_coefficient                                               0.0001 (0.0000, 0.0556)
+                outer_coefficient                                               130.9079 (51.2910, 248.0985)
+                signal_scale                                                    0.0168 (0.0086, 0.0430)
+    lens
+        mass
+            ell_comps
+                ell_comps_0                                                     -0.0297 (-0.0479, -0.0110)
+                ell_comps_1                                                     -0.0449 (-0.0748, -0.0255)
+            einstein_radius                                                     0.7789 (0.7753, 0.7843)
+            centre
+                centre_0                                                        0.0403 (0.0306, 0.0469)
+                centre_1                                                        0.0563 (0.0468, 0.0709)
+        shear
+            gamma_1                                                             0.0112 (-0.0043, 0.0207)
+            gamma_2                                                             -0.0175 (-0.0277, -0.0070)
+
+
+Summary (1.0 sigma limits):
+
+galaxies
+    source
+        pixelization
+            regularization
+                inner_coefficient                                               0.0001 (0.0000, 0.0017)
+                outer_coefficient                                               130.9079 (98.3391, 170.4976)
+                signal_scale                                                    0.0168 (0.0128, 0.0223)
+    lens
+        mass
+            ell_comps
+                ell_comps_0                                                     -0.0297 (-0.0353, -0.0244)
+                ell_comps_1                                                     -0.0449 (-0.0525, -0.0389)
+            einstein_radius                                                     0.7789 (0.7778, 0.7802)
+            centre
+                centre_0                                                        0.0403 (0.0377, 0.0425)
+                centre_1                                                        0.0563 (0.0530, 0.0606)
+        shear
+            gamma_1                                                             0.0112 (0.0076, 0.0142)
+            gamma_2                                                             -0.0175 (-0.0206, -0.0144)
+
+instances
+
+dataset_model
+    background_sky_level
+        value                                                                   0.0
+    grid_offset
+        grid_offset_0 - grid_offset_1
+            value                                                               0.0
+galaxies
+    lens
+        redshift
+            value                                                               0.5
+        bulge - point
+            intensity                                                           0.1
+            profile_list
+                0 - 9
+                    intensity                                                   1.0
+                0
+                    sigma                                                       0.01
+        bulge - disk
+            profile_list
+                1
+                    sigma                                                       0.012062543455218924
+                2
+                    sigma                                                       0.01455049546090449
+                3
+                    sigma                                                       0.01755159837921261
+                4
+                    sigma                                                       0.021171691815780217
+                5
+                    sigma                                                       0.02553844525483517
+                6
+                    sigma                                                       0.030805860566517875
+                7
+                    sigma                                                       0.037159703175903676
+                8
+                    sigma                                                       0.044824053434237496
+                9
+                    sigma                                                       0.05406920923895445
+                10 - 29
+                    intensity                                                   1.0
+                10
+                    sigma                                                       0.0652212186034213
+                11
+                    sigma                                                       0.0786733783606102
+                12
+                    sigma                                                       0.09490010452437406
+                13
+                    sigma                                                       0.11447366347300801
+                14
+                    sigma                                                       0.13808435401212663
+                15
+                    sigma                                                       0.16656485207571112
+                16
+                    sigma                                                       0.20091957662753773
+                17
+                    sigma                                                       0.24236011240738622
+                18
+                    sigma                                                       0.2923479387725839
+                19
+                    sigma                                                       0.3526459715487975
+                20
+                    sigma                                                       0.4253807356115266
+                21
+                    sigma                                                       0.5131173608327032
+                22
+                    sigma                                                       0.6189500462671731
+                23
+                    sigma                                                       0.7466111829707539
+                24
+                    sigma                                                       0.9006029838737121
+                25
+                    sigma                                                       1.0863562628876486
+                26
+                    sigma                                                       1.3104219628931488
+                27
+                    sigma                                                       1.5807021872071896
+                28
+                    sigma                                                       1.9067288822946313
+                29
+                    sigma                                                       2.3
+        point
+            profile_list
+                1
+                    sigma                                                       0.013179806292130022
+                2
+                    sigma                                                       0.01737072938980701
+                3
+                    sigma                                                       0.022894284851066635
+                4
+                    sigma                                                       0.030174223953390505
+                5
+                    sigma                                                       0.03976904267210366
+                6
+                    sigma                                                       0.05241482788417792
+                7
+                    sigma                                                       0.06908172783488002
+                8
+                    sigma                                                       0.09104837911893654
+                9
+                    sigma                                                       0.11999999999999998
+    source
+        redshift
+            value                                                               1.0

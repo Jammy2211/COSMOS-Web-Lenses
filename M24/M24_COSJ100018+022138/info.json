@@ -1,0 +1,12 @@
+{
+    "code": "COSJ100018+022138",
+    "ra": "150.07693452226474",
+    "dec": "2.3607571280031108",
+    "score": "M24",
+    "primary_waveband": "F115W",
+    "mask_radius": 1.5,
+    "mask_radius_small": 1.5,
+    "visual_1_type": "M24",
+    "data_field": "B7",
+    "catalogue_number": "210140"
+}

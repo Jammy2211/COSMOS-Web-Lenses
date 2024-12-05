@@ -1,0 +1,12 @@
+{
+    "code": "COSJ095920+020558",
+    "ra": "149.8344865219039",
+    "dec": "2.099581763630957",
+    "score": "S00",
+    "primary_waveband": "F444W",
+    "mask_radius": 1.6,
+    "mask_radius_small": 1.6,
+    "visual_1_type": "B",
+    "data_field": "A6",
+    "catalogue_number": "187207"
+}

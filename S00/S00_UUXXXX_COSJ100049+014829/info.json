@@ -1,0 +1,12 @@
+{
+    "code": "COSJ100049+014829",
+    "ra": "150.2070313382024",
+    "dec": "1.8082528232804507",
+    "score": "S00",
+    "primary_waveband": "F150W",
+    "mask_radius": 1.3,
+    "mask_radius_small": 1.3,
+    "visual_1_type": "B",
+    "data_field": "A9",
+    "catalogue_number": "259463"
+}
